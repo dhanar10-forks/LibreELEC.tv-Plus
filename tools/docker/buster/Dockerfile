@@ -25,6 +25,7 @@ RUN apt-get update && apt-get install -y \
     libjson-perl libxml-parser-perl libparse-yapp-perl \
     golang-go \
     git openssh-client \
+    bison flex \
     --no-install-recommends \
  && rm -rf /var/lib/apt/lists/*
 
